@@ -4,6 +4,7 @@
 
 > Second-login 
 
-![second -login](https://user-images.githubusercontent.com/81580725/126927894-e65f8018-04ae-47bb-a83a-966cd38cf1c8.png)
+![second -login](https://user-images.githubusercontent.com/81580725/126928347-204c299e-6840-4c4e-b605-44a429f2e5dd.png)
+
 
 
