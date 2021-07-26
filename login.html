@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd5d25e904.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="general">
+        <div class="container">
+            <div class="main">
+                <h1>Register</h1>
+            </div>
+            <div class="all-inputs">
+                <span><i class="fas fa-user"></i> Name </span>
+                <input type="text" name="name" placeholder="Enter the Name">
+                <span> <i class="fas fa-user"></i> Surname </span>
+                <input type="text" name="surname" placeholder="Enter the Surname">
+                <span><i class="fas fa-lock"></i> Password </span>
+                <input type="password" name=" password" id="the-Input" placeholder="Password">
+                <input type="checkbox" id="frase"onclick="myFunction()">
+                <p>Show Password </p>
+            </div>
+            <div class="destaque">
+                <button type="submit" class="register">Register</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var frist = document.getElementById("the-Input");
+            if (frist.type === "password") {
+                frist.type = "text";
+            } else {
+                frist.type = "password";
+            }
+        }
+    </script>
+</body>
+
+</html>
